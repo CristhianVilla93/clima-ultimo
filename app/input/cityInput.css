@@ -1,0 +1,40 @@
+.botonsearch{
+    width: 350px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botonsearch > input{
+    width: 252px;
+    height: 48px;
+    border: solid 1px #E7E7EB;
+    background-color: #1E213A;
+    color: #E7E7EB;
+    text-align: center;
+    
+}
+
+.botonsearch > button{
+    width: 86px;
+    height: 48px;
+    background-color: #3C47E9;
+    color: white;
+    border: none;
+}
+
+#cierre{
+   
+    width: 350px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 2% 1% 8% 2%;
+}
+
+#botonclose{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+}

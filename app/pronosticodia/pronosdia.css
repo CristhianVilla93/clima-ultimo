@@ -1,0 +1,42 @@
+.dia{
+    width: 120px;
+    height: 177px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3%;
+    background-color:  #1E213A;
+    justify-content: space-between;
+    color:  #E7E7EB;
+    
+}
+
+.dia > p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dia >p:last-child{
+    width: 90px;
+    word-spacing: 10px;
+}
+
+#span2{
+    color: #A09FB1;
+}
+
+.imgdias > img{
+   width: 66.51px;
+   height: 62px;
+}
+
+@media screen and (max-width: 320px) {
+    .dia{
+        width: 46%;
+        height: 177px;
+        
+    }
+
+    
+}

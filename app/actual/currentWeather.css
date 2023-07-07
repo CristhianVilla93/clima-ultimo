@@ -1,0 +1,79 @@
+.conteneactual{
+    height: 890px;
+}
+
+.climactual1{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.climactual1 > img{
+    width: 150px;
+    height: 174px;
+}
+
+.climactual1 > p:nth-child(2){
+    font-size: 144px;
+    color: #E7E7EB;
+    font-weight: 500;
+}
+
+.climactual1 > p:nth-child(2) > span{
+    font-size: 48px;
+    color: #A09FB1;
+    font-weight: 600;
+}
+
+.climactual1 > p:last-child{
+    font-size: 36px;
+    color: #A09FB1;
+}
+
+.climactual2{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.climactual2 > p{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.climactual2 > p > span{
+    color: #88869D;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ciudad{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   color: #88869D;
+}
+
+.ciudad > h2 {
+    color: #88869D;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1200px) {
+    .climactual1{
+        height: 90%;
+       
+    }
+
+}

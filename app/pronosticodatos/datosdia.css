@@ -1,0 +1,132 @@
+h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.letritas{
+    font-size: 25px;
+}
+
+.datos{
+    width: 328px;
+    height: 204px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    background-color:  #1E213A;
+    justify-content: space-between;
+    color:  #E7E7EB;
+    align-items: center;
+    
+}
+
+.location1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E7E7EB;
+    gap: 10px;
+}
+.porcent{
+    display:flex ;
+    justify-content: space-between;
+    
+}
+
+.humedad{
+    width: 210px;
+    height: 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.letra{
+    font-size: 10px;
+}
+.letra1{
+    font-size: 10px;
+    text-align: end;
+}
+
+.dato1{
+    width: 328px;
+    height: 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8%;
+    background-color:  #1E213A;
+    justify-content: space-around;
+    color:  #E7E7EB;
+    
+}
+
+.datosdelcuadrado{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+@media screen and (min-width: 1000px) {
+    .datosdelcuadrado{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+           
+    }
+
+    .datos{
+       
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding:0;
+        justify-content: space-around;
+
+        
+    }
+    .dato1{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;   
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .datos{
+        width: 98%;
+        height: 204px;
+
+        
+    }
+    .dato1{
+        width: 98%;
+        height: 204px; 
+    }
+
+
+}
+
