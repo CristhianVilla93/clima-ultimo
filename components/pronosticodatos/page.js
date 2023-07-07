@@ -22,7 +22,7 @@ function Location() {
      {console.log("hola",currentWeather)}
       <h3>Today`s Hightlights</h3>
 
-     {/*  {currentWeather.weather.map((weather) => (
+     {currentWeather.weather.map((weather) => (
         <div key={weather.id} className='datosdelcuadrado'>
           <div className="datos">
             <p>Wind status</p>
@@ -53,7 +53,7 @@ function Location() {
             <h1>{currentWeather.main.pressure} <span className='letritas'>mb</span></h1>
           </div>
         </div>
-      ))} */}
+      ))} 
     </>
   );
   

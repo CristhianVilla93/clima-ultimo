@@ -1,10 +1,10 @@
 'use client'
 
 import React, { useState, useEffect } from 'react';
-import CityInput from './input/page';
-import CurrentWeather from './actual/page';
-import WeatherForecast from './pronosticodia/page';
-import Datosdia from './pronosticodatos/page';
+import CityInput from '../components/input/page';
+import CurrentWeather from '../components/actual/page';
+import WeatherForecast from '../components/pronosticodia/page';
+import Datosdia from '../components/pronosticodatos/page';
 
 
 const Home = () => {
@@ -110,7 +110,8 @@ const Home = () => {
               forecast={forecast}
               getFormattedDate={getFormattedDate}
             />
-          )}
+          )} 
+          {console.log(forecast)}
         </div>
 
         <div className="contedatos">
