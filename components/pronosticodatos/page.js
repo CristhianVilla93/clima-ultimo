@@ -46,7 +46,7 @@ function Location() {
           </div>
           <div className="dato1">
             <p>Visibility</p>
-            <h1>{currentWeather.visibility} <span className='letritas'>miles</span></h1>
+            <h1>{currentWeather.visibility} <span className='letritas'>metros</span></h1>
           </div>
           <div className="dato1">
             <p>Air pressure</p>
