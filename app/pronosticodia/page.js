@@ -6,7 +6,6 @@ import './pronosdia.css'
   export default function WeatherForecast({ forecast, getFormattedDate }) {
     console.log("primero",forecast)
 
-return null;
 
     return (
       <>
@@ -16,7 +15,7 @@ return null;
         {console.log(item)}
         <p>{getFormattedDate(item.dt_txt).substring(0, 17)}</p>
         
-        {/* {item.weather.map((weather) => (
+        {item.weather.map((weather) => (
           <div key={weather.id} className='imgdias'>
             <img
               src={`http://openweathermap.org/img/wn/${weather.icon}.png`}
@@ -25,20 +24,8 @@ return null;
             
           </div>
           
-        ))} */}
+        ))} 
 
-          <div key={item.weather[0].id} className='imgdias'>
-            <img
-              src={`http://openweathermap.org/img/wn/${item.weather[0].icon}.png`}
-              alt={item.weather[0].description}
-            />
-            
-          </div>
-          
-      
-
-
-       {/*  hasta qui */}
         <p><span id='span1'>{item.main.temp.toFixed(0)}°C</span> <span id='span2'>11°C</span></p>
         
       </div>
