@@ -4,13 +4,16 @@ import './pronosdia.css'
   import React from 'react'
   
   export default function WeatherForecast({ forecast, getFormattedDate }) {
-    console.log("hola")
-    console.log(forecast)
+    console.log("primero",forecast)
+
+return null;
+
     return (
       <>
      
     {forecast.map((item) => (
       <div key={item.dt} className='dia'>
+        {console.log(item)}
         <p>{getFormattedDate(item.dt_txt).substring(0, 17)}</p>
         
         {/* {item.weather.map((weather) => (
@@ -41,6 +44,7 @@ import './pronosdia.css'
       </div>
     ))}
   </>
+
     )
   }
   
